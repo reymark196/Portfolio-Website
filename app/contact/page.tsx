@@ -32,7 +32,7 @@ export default function ContactPage() {
 		e.preventDefault();
 		// Form submission logic would go here
 		console.log('Form submitted:', formState);
-		alert('Message sent successfully!');
+		alert('Message didn not send successfully. Please try different method.');
 		setFormState({ name: '', email: '', subject: '', message: '' });
 	};
 
