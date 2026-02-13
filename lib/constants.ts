@@ -14,15 +14,15 @@ export const siteConfig = {
 	links: {
 		github: 'https://github.com/reymark196',
 		linkedin: 'https://linkedin.com/in/reymark-garcia-75a561373/',
-		twitter: 'https://x.com/garcia_rey84173',
-		whatsapp: 'https://wa.me/639927418450',
+		// twitter: 'https://x.com/garcia_rey84173',
+		// whatsapp: 'https://wa.me/639927418450',
 		email: 'mailto:reymarkgarcia040924@gmail.com',
-		phone: 'tel:+639927418450',
+		// phone: 'tel:+639927418450',
 	},
 	contact: {
 		email: 'reymarkgarcia040924@gmail.com',
 		location: 'Trece Martires City, Cavite, Philippines',
-		phone: '+63 992 741 8450',
+		// phone: '+63 992 741 8450',
 	},
 	/** When true, profile image fills the entire section (object-cover). When false, full image fits inside (object-contain). */
 	profileImageCover: true,
