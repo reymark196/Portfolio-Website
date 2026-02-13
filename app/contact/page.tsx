@@ -76,14 +76,6 @@ export default function ContactPage() {
 												{siteConfig.contact?.location ?? 'Trece Martires City, Cavite, Philippines'}
 											</p>
 										</div>
-										{siteConfig.contact?.phone && (
-											<div className="flex items-center">
-												<Phone className="h-5 w-5 text-primary mr-3 shrink-0" />
-												<a href={siteConfig.links.phone} className="text-muted-foreground hover:text-primary transition-colors">
-													{siteConfig.contact.phone}
-												</a>
-											</div>
-										)}
 									</div>
 								</CardContent>
 							</Card>
