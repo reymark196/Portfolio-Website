@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Phone, Mail, MapPin, Send } from 'lucide-react';
+import { Mail, MapPin, Send } from 'lucide-react';
+import { toast } from 'sonner';
 
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -32,7 +33,9 @@ export default function ContactPage() {
 		e.preventDefault();
 		// Form submission logic would go here
 		console.log('Form submitted:', formState);
-		alert('Message didn not send successfully. Please try different method.');
+		toast.error('Message could not be sent', {
+			description: 'Please try emailing directly using the address above, or try again in a moment.',
+		});
 		setFormState({ name: '', email: '', subject: '', message: '' });
 	};
 

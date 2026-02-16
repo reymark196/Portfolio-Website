@@ -33,7 +33,7 @@ export default function AboutPage() {
 					<motion.div variants={fadeIn('up', 0.3)} className="space-y-6 order-2">
 						<h1 className="text-4xl font-bold">About Me</h1>
 						<p className="text-lg text-muted-foreground">
-							I'm an AI/ML Engineer with 5+ years of experience specializing in Machine Learning, Deep Learning,
+							I&apos;m an AI/ML Engineer with 5+ years of experience specializing in Machine Learning, Deep Learning,
 							Generative AI, Large Language Models, and RAG. I design and build production-grade, end-to-end
 							intelligent systems—applying strong software engineering principles, prompt engineering, agentic AI
 							workflows, and scalable model serving to deliver reliable, maintainable solutions.
@@ -41,9 +41,9 @@ export default function AboutPage() {
 						<div className="space-y-4">
 							<h2 className="text-4xl font-bold">My Journey</h2>
 							<p className="text-lg text-muted-foreground">
-								From my Bachelor's in Computer Science at De La Salle University Manila to roles at Zenovo AI,
-								GenAI.Labs, Stratpoint Technologies, and Senti Techlabs, I've focused on NLP, computer vision,
-								LLM/RAG systems, and MLOps. I'm based in Trece Martires City, Cavite, Philippines, and have
+								From my Bachelor&apos;s in Computer Science at De La Salle University Manila to roles at Zenovo AI,
+								GenAI.Labs, Stratpoint Technologies, and Senti Techlabs, I&apos;ve focused on NLP, computer vision,
+								LLM/RAG systems, and MLOps. I&apos;m based in Trece Martires City, Cavite, Philippines, and have
 								worked with teams in the US and across the Philippines.
 							</p>
 						</div>
@@ -66,7 +66,7 @@ export default function AboutPage() {
 							<CardContent className="p-6">
 								<h3 className="text-xl font-semibold mb-4">Education</h3>
 								<p className="text-muted-foreground">
-									Bachelor's in Computer Science from De La Salle University Manila (2017–2021),
+									Bachelor&apos;s in Computer Science from De La Salle University Manila (2017–2021),
 									with a foundation in Data Structures, Algorithms, ML, and Deep Learning.
 								</p>
 							</CardContent>
