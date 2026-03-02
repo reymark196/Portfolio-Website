@@ -41,7 +41,7 @@ export default function AboutPage() {
 						<div className="space-y-4">
 							<h2 className="text-4xl font-bold">My Journey</h2>
 							<p className="text-lg text-muted-foreground">
-								From my Bachelor&apos;s in Computer Science at De La Salle University Manila to roles at Zenovo AI,
+								From my Bachelor&apos;s in Computer Science and Master&apos;s in Artificial Intelligence at De La Salle University Manila to roles at Zenovo AI,
 								GenAI.Labs, Stratpoint Technologies, and Senti Techlabs, I&apos;ve focused on NLP, computer vision,
 								LLM/RAG systems, and MLOps. I&apos;m based in Trece Martires City, Cavite, Philippines, and have
 								worked with teams in the US and across the Philippines.
@@ -66,8 +66,8 @@ export default function AboutPage() {
 							<CardContent className="p-6">
 								<h3 className="text-xl font-semibold mb-4">Education</h3>
 								<p className="text-muted-foreground">
-									Bachelor&apos;s in Computer Science from De La Salle University Manila (2017–2021),
-									with a foundation in Data Structures, Algorithms, ML, and Deep Learning.
+									Bachelor&apos;s in Computer Science (2017–2021) and Master&apos;s in Artificial Intelligence (2021–2024) from De La Salle University Manila,
+									with a strong foundation in Data Structures & Algorithms, Machine Learning, Deep Learning, Transformers, and LLMs.
 								</p>
 							</CardContent>
 						</Card>

@@ -225,7 +225,18 @@ export const education: Education[] = [
 		startDate: 'September 2017',
 		endDate: 'June 2021',
 		achievements: [
-			'Academic foundation in Data Structures & Algorithms, Machine Learning, and Deep Learning, with emphasis on algorithmic analysis and modern neural network methods.',
+			'Academic foundation in Data Structures & Algorithms, Machine Learning, Deep Learning, and Software Engineering.',
+		],
+	},
+	{
+		degree: "Master's Degree in Artificial Intelligence",
+		field: 'Artificial Intelligence',
+		institution: 'De La Salle University Manila',
+		location: 'Manila, Philippines',
+		startDate: 'October 2021',
+		endDate: 'August 2024',
+		achievements: [
+			'Academic foundation in Artificial Intelligence, Machine Learning, Deep Learning, Transformers, and Large Language Models (LLMs).',
 		],
 	},
 ];

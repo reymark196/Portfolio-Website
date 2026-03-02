@@ -30,7 +30,7 @@ export default function EducationPage() {
 						variants={fadeIn('down', 0.3)}
 						className="text-lg text-muted-foreground mb-12"
 					>
-						My academic foundation in Computer Science, with emphasis on Data Structures, Algorithms, Machine Learning, and Deep Learning.
+						My academic foundation spans Computer Science and Artificial Intelligence, with emphasis on Data Structures & Algorithms, Machine Learning, Deep Learning, Transformers, and Large Language Models (LLMs).
 					</motion.p>
 
 					<div className="space-y-8">
